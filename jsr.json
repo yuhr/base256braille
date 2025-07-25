@@ -3,7 +3,7 @@
   "version": "0.0.0",
 	"license": "CC0-1.0",
   "exports": {
-		"decode": "./decode.ts",
-		"encode": "./encode.ts"
+		"./fromBase256braille": "./fromBase256braille.ts",
+		"./toBase256braille": "./toBase256braille.ts"
 		}
 }
