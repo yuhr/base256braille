@@ -15,4 +15,4 @@ assertEquals(fromBase256braille("⠀⠁⠂⠃"), Uint8Array.of(0, 1, 2, 3))
 
 ## Caveats
 
-The null byte (`0x00`) is encoded as the invisible braille character `⠀`, so it is highly recommended that a presenter appropriately delimit and markup for readers to easily recognize which parts of text are in the Base 256 Braille encoding.
+The null byte (`0x00`) is encoded as the invisible Braille character `⠀`, so it is highly recommended that a presenter appropriately delimit and markup for readers to easily recognize which parts of text are in the Base 256 Braille encoding.
